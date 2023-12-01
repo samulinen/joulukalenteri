@@ -1,0 +1,40 @@
+body {
+	background: bisque;
+	margin: 0;
+	font-family: "Allura" ;
+}
+
+img:hover {
+	background-color: #c04d5a;
+}
+
+img {
+	width: 1000px;
+	height: 600px;
+}
+.demo-content {
+	max-width: 400px;
+	margin-right: auto;
+	margin-left: 19%;
+}
+h1 {
+	text-align: center;
+}
+
+.demo-content button {
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	position:relative;
+	margin-bottom: 5%;
+	background-color:deeppink;
+	padding: 5%;
+	width: 17%;
+	height: 7%;
+	font-family: "Allura";
+	font-size: 24px;
+	left: 70%;
+	bottom: 20%;
+	flex-direction: column;
+	justify-content: center;
+	text-decoration: none;
+}
